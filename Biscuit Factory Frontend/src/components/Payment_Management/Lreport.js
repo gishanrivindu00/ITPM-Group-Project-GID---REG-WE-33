@@ -16,7 +16,7 @@ constructor(props){
 componentDidMount(){
   this.retrieveStocks();
 }
-
+//get all payments
 retrieveStocks(){
   axios.get("http://localhost:8000/payment").then(res =>{
     if(res.data.success){

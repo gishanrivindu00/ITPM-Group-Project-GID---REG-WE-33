@@ -31,7 +31,7 @@ const AddEmployee = (props) => {
             [name]: value
         })
     };
-
+//submit form
     const onSubmit = (e) => {
         e.preventDefault();
         let err = validation(empDetails);

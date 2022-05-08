@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const EmpDetails=()=>{
     const [emp,setEmp]=useState({emp:{}})
-  
+  //get existing employee
     useEffect((res) => {
         const id = this.props.match.params.id;
         axios.get('http://localhost:8090/employee/get/$id')

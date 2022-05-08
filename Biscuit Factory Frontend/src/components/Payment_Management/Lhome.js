@@ -15,7 +15,7 @@ export default function Home(props) {
         retrieveEmployee();
     }, []);
 
-
+//retrieving existing payments
     const retrieveEmployee=()=>{
         axios.get("http://localhost:8000/payment").then(res =>{
             console.log('===============', res);

@@ -90,7 +90,7 @@ class EditDetails extends React.Component {
             totalSalary: e.target.value
         })
     }
-
+//submit form
     onSubmit(e) {
         e.preventDefault();
 

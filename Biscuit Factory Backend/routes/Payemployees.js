@@ -4,7 +4,7 @@ const employee = require("../models/Payemployee");
 
 const router =  express.Router();
 
-//add
+//add payment
 // http://localhost:8000/payment/add
 router.route("/add") .post ((req,res) => {
     
@@ -36,7 +36,7 @@ router.route("/add") .post ((req,res) => {
     })
 })    
 
-//read
+//read all payments
     
 //http://localhost:8000/payment   
 router.route('/').get((req,res)=>{
