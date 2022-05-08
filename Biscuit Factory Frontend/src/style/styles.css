@@ -1,6 +1,7 @@
 
 .bg{
   background-image: url("../Images/bg4.jpg");
+  background-size: cover;
 }
 
 form .button input{
@@ -122,11 +123,13 @@ body{
 }
 
 .sbtn{
-  border: 1px solid #3498db;
-  background: none;
-  padding: 10px 20px ;
-  font: size 20px; ;
+  border: 2px solid #3498db;
+  background: rgb(47, 255, 158);
+  padding: 20px 30px ;
+  font-size: 25px; 
+  font-weight: bold;
   font-family: monospace;
+  color: black;
   cursor: pointer;
   margin: 10px; ;
 }

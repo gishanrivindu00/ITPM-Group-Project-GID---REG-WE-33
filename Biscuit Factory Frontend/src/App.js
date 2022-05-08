@@ -28,6 +28,7 @@ import SalesChart from './components/Sales Management/sales-chart.component';
 import SalesList from './components/Sales Management/sales-list.component';
 import AgentDetails from './components/Sales Management/AgentDetails';
 import AddAgent from './components/Sales Management/AddAgent';
+import SalesReport from './components/Sales Management/SalesReport';
 
 import AddEmployee from "./components/Payment_Management/AddEmployee";
 import EditDetails from "./components/Payment_Management/EditDetails";
@@ -66,9 +67,10 @@ class App extends Component {
         <Route path= "/sales/edit/:id" component={EditSales}></Route>
         <Route path="/sales/add" component={CreateSales}></Route>
         <Route path="/sales/saleschart" component={SalesChart}></Route>
+        <Route path="/sales/report" component={SalesReport}></Route>
         <Route path="/sales/agents" component={AgentDetails}></Route>
         <Route path="/sales/agents/add" component={AddAgent}></Route>
-
+       
         <Route path="/payment/add" component={AddEmployee}></Route>
         <Route path="/payment/update/:id" component={EditDetails}></Route>
         <Route path="/payment/get/id" component={EmpDetails}></Route>

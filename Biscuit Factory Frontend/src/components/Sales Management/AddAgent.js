@@ -78,12 +78,6 @@ class AddAgent extends Component {
         return (
             <div className="container1">
                 <div class="topnav">   
-                <a class="active" href="/">Home</a>
-                    <a href="/sales">All Sales</a>
-                    <a href="/sales/add">Create a Sale</a>
-                    <a href="/sales/agents">Agent Details</a>
-                    <a href="/sales/agents/add">Add New Agent</a>
-                    <a href="/sales/saleschart">Sales Chart</a>
                 </div>
             <div className="col-md-8 mt-4 mx-auto">
             <h2 className="h3 mb-3 font-weight-normal text-center">Add New Agent</h2>

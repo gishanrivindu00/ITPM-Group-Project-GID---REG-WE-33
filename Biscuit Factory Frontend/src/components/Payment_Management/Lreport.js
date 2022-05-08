@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import ReactToPrint from 'react-to-print';
+import NavBar from './LNavBar';
 
 class Home extends Component {
 constructor(props){
@@ -31,8 +32,9 @@ retrieveStocks(){
  
   render() {
     return (
-      <div className="container1" style={{minHeight:"800px"}}>
-        <h2>Do you want to get a Report?</h2>
+      <div className="container1">
+        <NavBar/>
+        <h2 style={{color:"white"}}>Do you want to get a Report?</h2>
         <h2><center>All Payment Details</center></h2>
         <ReactToPrint
             trigger={() => (

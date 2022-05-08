@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 
-
-class Supermarket extends Component {
+class BiscuitFactory extends Component {
     render() {
         return (
-            <body>
+            <div>
+            <div className='bg'>
                 <br></br>
-                <h1><center>Sunkist Biscuit Factory Management System</center></h1>
+                <h1 style={{color:"white"}}><center>Sunkist Biscuit Factory Management System</center></h1>
                 <div className="Scontainer">
                     <a href="/inventory">
                     <button className="sbtn btn1">Inventory Management</button>
@@ -27,9 +27,19 @@ class Supermarket extends Component {
                     <button className="sbtn btn4">Sales Management</button>
                     </a>
                 </div>
-            </body>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+            </div>
+            </div>
         );
     }
 }
 
-export default Supermarket;
+export default BiscuitFactory;

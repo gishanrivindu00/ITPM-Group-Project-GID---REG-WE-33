@@ -69,7 +69,8 @@ export default function Home(props) {
                     type="search"
                     placeholder = "Search"
                     name="searchQuery"
-                    onChange={handleSearchArea} 
+                    onChange={handleSearchArea}
+                    style={{width:"250px",marginInlineStart:"80%"}} 
                 />
             </div>
         <br/>
