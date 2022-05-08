@@ -229,8 +229,9 @@ class CreateEmployee extends Component {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <label>Age :</label>
-                                            <input type="text"
+                                            <input type="number"
                                              name="age" 
+                                             maxlength="3"
                                              className="form-control"
                                             placeholder="Enter Employee Age"
                                             value={this.state.age}
@@ -240,7 +241,9 @@ class CreateEmployee extends Component {
                                         <div className="col-lg-6">
                                             <label>Contact Number :</label>
                                             <input type="number"
-                                            name="contactNo" 
+                                            name="contactNo"
+                                            minlength="9" 
+                                            maxlength="10"
                                             className="form-control"
                                              placeholder="Enter Employee Contact Number"
                                             value={this.state.contactNo}
