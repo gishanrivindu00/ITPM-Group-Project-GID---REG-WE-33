@@ -11,11 +11,11 @@ constructor(props){
   };
 
 }
-
+//retrive all inventory
 componentDidMount(){
   this.retrieveInventory();
 }
-
+//get all inventory
 retrieveInventory(){
   axios.get("http://localhost:8000/inventory").then(res =>{
     if(res.data.success){

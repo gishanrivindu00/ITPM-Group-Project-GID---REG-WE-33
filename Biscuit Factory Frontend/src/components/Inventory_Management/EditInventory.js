@@ -25,7 +25,7 @@ class EditInventory extends Component {
             [name]:value
         })
     }
-
+//submit form
     onSubmit = (e)=>{
         
         e.preventDefault();

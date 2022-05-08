@@ -9,7 +9,7 @@ class InventoryDetails extends Component {
             inventory:{}
         };
     }
-
+//get invetory by id
     componentDidMount(){
 
         const id = this.props.match.params.id;

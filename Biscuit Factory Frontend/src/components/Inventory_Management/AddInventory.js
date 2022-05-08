@@ -27,7 +27,7 @@ class AddInventory extends Component {
         })
     }
 
-   
+  //submit form 
 
     onSubmit = (e) =>{
 
